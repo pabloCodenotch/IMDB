@@ -1,6 +1,7 @@
 export class Professional
 {
-    
+
+
     public name:string;
     public age: number;
     public genre: string;
@@ -14,7 +15,7 @@ export class Professional
     public oscarsNumber:number;
     public profession:string;
 
-    
+
     constructor (name:string, age: number, genre: string, weight: number, height:number, hairColor: string, eyeColor:string, race:string, isRetired:boolean,
                 nationality:string, oscarsNumber:number, profession:string) 
     {
@@ -49,5 +50,6 @@ export class Professional
         }
 }
 
-let actor: Professional = new Professional("Ricewind", 35, "male", )
-    
+// let actor: Professional = new Professional("Dextro", 46, "male", 86, 178, "black", "brown", "caucasian", false, "spanish", 3, "actor")
+
+// actor.printAll()
