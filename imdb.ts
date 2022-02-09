@@ -1,5 +1,6 @@
 import { Professional } from "./professional";
 import { Movie } from "./movie";
+let fs = require('fs')
 
 export class Imdb
 {
@@ -8,6 +9,19 @@ export class Imdb
     constructor(array: Movie[])
     {
         this.peliculas = array;
+    }
+
+    public escribirEnFicheroJSON(fichero: string)
+    {
+       let momoa = JSON.stringify(this)
+       fs.writeFileSync(fichero, momoa)
+       
+    }
+
+    public obtenerInstanciaIMDB(fichero: string):Imdb
+    {
+        let res = fs.readFileSync(fichero,'utf-8');
+        return JSON.parse(res)
     }
 }
 

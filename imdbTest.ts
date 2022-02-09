@@ -1,6 +1,8 @@
 import { Professional } from "./professional";
 import { Movie } from "./movie";
 import { Imdb } from "./imdb";
+const fs = require('fs')
+const readlineSync = require('readline-sync')
 
 let actor1: Professional = new Professional("Dextro", 46, "male", 86, 178, "black", "brown", "caucasian", false, "spanish", 3, "actor")
 let actor2: Professional = new Professional("Macarena", 31, "female", 52, 165, "blonde", "blue", "caucasian", false, "spanish", 0, "actor")
@@ -39,4 +41,16 @@ let peliculas: Movie[] = [pelicula1, pelicula2]
 
 let imedebe: Imdb = new Imdb(peliculas)
 
-console.log(imedebe)
+// console.log(imedebe)
+
+// let  momoa = JSON.stringify(imedebe)
+
+
+
+// // fs.writeFileSync('imdbBBDD.json', momoa)
+
+// let res = fs.readFileSync('imdbBBDD.json','utf-8')
+// console.log(JSON.parse(res))
+
+
+

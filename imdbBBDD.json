@@ -1,0 +1,142 @@
+{
+    "peliculas": [
+        {
+            "title": "Toxic Avenger",
+            "releaseYear": 1986,
+            "nacionality": "EEUU",
+            "genre": "action",
+            "actors": [
+                {
+                    "name": "Dextro",
+                    "age": 46,
+                    "genre": "male",
+                    "weight": 86,
+                    "height": 178,
+                    "hairColor": "black",
+                    "eyeColor": "brown",
+                    "race": "caucasian",
+                    "isRetired": false,
+                    "nationality": "spanish",
+                    "oscarsNumber": 3,
+                    "profession": "actor"
+                },
+                {
+                    "name": "Macarena",
+                    "age": 31,
+                    "genre": "female",
+                    "weight": 52,
+                    "height": 165,
+                    "hairColor": "blonde",
+                    "eyeColor": "blue",
+                    "race": "caucasian",
+                    "isRetired": false,
+                    "nationality": "spanish",
+                    "oscarsNumber": 0,
+                    "profession": "actor"
+                }
+            ],
+            "director": {
+                "name": "Lloyd Kaufman",
+                "age": 76,
+                "genre": "male",
+                "weight": 70,
+                "height": 170,
+                "hairColor": "white",
+                "eyeColor": "brown",
+                "race": "caucasian",
+                "isRetired": true,
+                "nationality": "EEUU",
+                "oscarsNumber": 0,
+                "profession": "director"
+            },
+            "isMCU": false,
+            "language": "english",
+            "plataform": "Netflix",
+            "producer": "Troma Entertaiment",
+            "writer": {
+                "name": "Lloyd Kaufman",
+                "age": 76,
+                "genre": "male",
+                "weight": 70,
+                "height": 170,
+                "hairColor": "white",
+                "eyeColor": "brown",
+                "race": "caucasian",
+                "isRetired": true,
+                "nationality": "EEUU",
+                "oscarsNumber": 0,
+                "profession": "director"
+            },
+            "mainCharacterName": "Melvin"
+        },
+        {
+            "title": "Toxic Avenger 2",
+            "releaseYear": 1989,
+            "nacionality": "EEUU",
+            "genre": "action",
+            "actors": [
+                {
+                    "name": "Dextro",
+                    "age": 46,
+                    "genre": "male",
+                    "weight": 86,
+                    "height": 178,
+                    "hairColor": "black",
+                    "eyeColor": "brown",
+                    "race": "caucasian",
+                    "isRetired": false,
+                    "nationality": "spanish",
+                    "oscarsNumber": 3,
+                    "profession": "actor"
+                },
+                {
+                    "name": "Macarena",
+                    "age": 31,
+                    "genre": "female",
+                    "weight": 52,
+                    "height": 165,
+                    "hairColor": "blonde",
+                    "eyeColor": "blue",
+                    "race": "caucasian",
+                    "isRetired": false,
+                    "nationality": "spanish",
+                    "oscarsNumber": 0,
+                    "profession": "actor"
+                }
+            ],
+            "director": {
+                "name": "Lloyd Kaufman",
+                "age": 76,
+                "genre": "male",
+                "weight": 70,
+                "height": 170,
+                "hairColor": "white",
+                "eyeColor": "brown",
+                "race": "caucasian",
+                "isRetired": true,
+                "nationality": "EEUU",
+                "oscarsNumber": 0,
+                "profession": "director"
+            },
+            "isMCU": false,
+            "language": "english",
+            "plataform": "Netflix",
+            "producer": "Troma Entertaiment",
+            "writer": {
+                "name": "Lloyd Kaufman",
+                "age": 76,
+                "genre": "male",
+                "weight": 70,
+                "height": 170,
+                "hairColor": "white",
+                "eyeColor": "brown",
+                "race": "caucasian",
+                "isRetired": true,
+                "nationality": "EEUU",
+                "oscarsNumber": 0,
+                "profession": "director"
+            },
+            "mainCharacterName": "Melvin"
+        }
+    ]
+}
